@@ -1,0 +1,80 @@
+/* General Styles for Header */
+.header {
+  display: flex;
+  justify-content: space-between; /* Space out items evenly */
+  align-items: center; /* Vertically align items */
+  background-color: #282c34;
+  padding: 10px 20px; /* Adjust padding for a more compact header */
+  color: white;
+}
+
+/* Company Name Styles */
+.companyName {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+/* Navigation List Styles */
+.navList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Space between navigation items */
+}
+
+/* Navigation Item Styles */
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.1em;
+  height: 1px;
+}
+
+/* Icon Styles */
+.icon {
+  font-size: 1.5em;
+}
+
+/* Profile Section Styles */
+.profileSection {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between icons and profile dropdown */
+}
+
+/* Profile Dropdown Styles */
+.profileDropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profileText {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+/* Dropdown Menu Styles */
+.dropdownMenu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #282c34;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownList {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.dropdownList li {
+  padding: 8px;
+  cursor: pointer;
+}
